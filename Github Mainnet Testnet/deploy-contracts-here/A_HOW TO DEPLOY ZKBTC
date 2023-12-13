@@ -1,0 +1,55 @@
+nvm use 16
+
+yarn hardhat compile
+
+yarn hardhat deploy-zksync --script deploy_Everything_Including_Pools.ts
+
+
+use output of deploy scripts to verify contracts
+
+
+
+Then go to my dapp and fill in information in App.vue and run
+
+yarn serve
+or
+yarn build
+
+
+
+Optional:
+
+yarn hardhat deploy-zksync --script deploy_The_Greeter.ts
+
+to create Greeter contract on mainnet
+
+
+
+
+
+
+
+~~~~~~OOOOOORRRRRR !~~~~~~~
+
+yarn hardhat deploy-zksync --script 1deploy_ZKBTC.ts
+
+Get Auction and zkBTC and Make two Liquidity Pools.
+reminder, Make two Liquidity Pools.
+
+Fill in LP Token, LP Token #2, zkBTC, Auction, 0xBitcoin Token address in deploy_Pool_0xBTC_zkBTC.ts and deploy_Pool_ETH.ts
+
+After 
+
+
+yarn hardhat deploy-zksync --script deployStakingETH.ts
+
+and
+
+yarn hardhat deploy-zksync --script deployStaking0xBTC.ts
+
+
+THEN fill in the Staking Contract #1 and #2, LP Token #1 and #2, zkBTC, Auction, 0xBitcoin addresses in the dAPPs and ur good to go
+
+edit App.Vue file for this
+
+

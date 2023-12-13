@@ -1,0 +1,12 @@
+
+ export BASE_ACCOUNT='0xc5Fa2E4aD6E444b49e44a7549dad6009feDa12d9'
+ export ETH_PROVIDER_URL="https://mainnet.era.zksync.io"
+
+python3 'SlotFinder(ZKSYNC)'.py
+
+
+
+ export BASE_ACCOUNT='0xc5Fa2E4aD6E444b49e44a7549dad6009feDa12d9'
+ export ETH_PROVIDER_URL="https://testnet.era.zksync.dev"
+
+python3 'SlotFinder(zkBitcoin)'.py
